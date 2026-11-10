@@ -1,12 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo - Sistema de Grid</title>
     <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.css">
 </head>
+
 <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <h1>DEMO - Sistema de Grid</h1>
     <div class="container-fluid">
         <div class="row">
@@ -37,36 +60,59 @@
                     <div class="row">
                         <div class="col-sm-12 col-md-6 col-lg-3" style="background-color: blue;">
                             <p>#</p>
-                        </div> 
-                         <div class="col-sm-12 col-md-6 col-lg-3" style="background-color:aquamarine">
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3" style="background-color:aquamarine">
                             <p>#</p>
-                        </div> 
-                         <div class="col-sm-12 col-md-6 col-lg-3" style="background-color: blue;">
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3" style="background-color: blue;">
                             <p>#</p>
-                        </div> 
-                         <div class="col-sm-12 col-md-6 col-lg-3" style="background-color:aquamarine">
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3" style="background-color:aquamarine">
                             <p>#</p>
-                        </div> 
+                        </div>
 
                     </div>
-                     <div class="row">
+                    <div class="row">
                         <div class="col-sm-12 col-md-6 col-lg-3" style="background-color:brown">
                             <p>#</p>
-                        </div> 
-                         <div class="col-sm-12 col-md-6 col-lg-3" style="background-color:dodgerblue">
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3" style="background-color:dodgerblue">
                             <p>#</p>
-                        </div> 
-                         <div class="col-sm-12 col-md-6 col-lg-3" style="background-color:brown">
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3" style="background-color:brown">
                             <p>#</p>
-                        </div> 
-                         <div class="col-sm-12 col-md-6 col-lg-3" style="background-color:dodgerblue">
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3" style="background-color:dodgerblue">
                             <p>#</p>
-                        </div> 
+                        </div>
 
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" >Pista</a>
+    <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Pista</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Contenido de la pista
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.js"></script>
 </body>
+
 </html>
